@@ -1,0 +1,35 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "D:/gdmake/bin/Debug/net5.0/win10-x64/submodules/gd.h",
+                "D:/gdmake/bin/Debug/net5.0/win10-x64/submodules/gd.h/include",
+                "D:/gdmake/bin/Debug/net5.0/win10-x64/submodules/MinHook",
+                "D:/gdmake/bin/Debug/net5.0/win10-x64/submodules/MinHook/include",
+                "D:/gdmake/bin/Debug/net5.0/win10-x64/submodules/Cocos2d/cocos2dx",
+                "D:/gdmake/bin/Debug/net5.0/win10-x64/submodules/Cocos2d/cocos2dx/include",
+                "D:/gdmake/bin/Debug/net5.0/win10-x64/submodules/Cocos2d/cocos2dx/kazmath/include",
+                "D:/gdmake/bin/Debug/net5.0/win10-x64/submodules/Cocos2d/cocos2dx/platform/third_party/win32/OGLES",
+                "D:/gdmake/bin/Debug/net5.0/win10-x64/submodules/Cocos2d/cocos2dx/platform/win32",
+                "D:/gdmake/bin/Debug/net5.0/win10-x64/submodules/Cocos2d/extensions",
+                "D:/gdmake/bin/Debug/net5.0/win10-x64/submodules/Cocos2d",
+                "D:/gdmake/bin/Debug/net5.0/win10-x64/submodules/Cocos2d/cocos2dx/support/zip_support",
+                "D:/gdmake/bin/Debug/net5.0/win10-x64/submodules/nodes",
+                "D:/gdmake/bin/Debug/net5.0/win10-x64/include"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "windowsSdkVersion": "10.0.19041.0",
+            "compilerPath": "D:/VSBuildTools/2019/VC/Tools/MSVC/14.29.30037/bin/Hostx64/x64/cl.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "windows-msvc-x64"
+        }
+    ],
+    "version": 4
+}
