@@ -113,6 +113,8 @@ std::vector<CCTextInputNode*> findTextInputNodes(CCNode* parent) {
         else {
             if (child->getChildrenCount() > 100)
                 continue;
+            if (!child->isVisible())
+                continue;
 
             auto cres = findTextInputNodes(child);
 
@@ -213,7 +215,7 @@ GDMAKE_MAIN {
         reinterpret_cast<LPVOID*>(&dispatchScrollMSG)
     );
 
-    return true;
+    return "";
 }
 
 GDMAKE_UNLOAD {}
